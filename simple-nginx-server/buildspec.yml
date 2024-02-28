@@ -9,7 +9,7 @@ phases:
   build:
     commands:
       - echo "build has been started...."
-      - cp -r index.html /var/www/html/
+      - sudo cp -r index.html /var/www/html/
   post_build:
     commands:
       - echo "Build Successfully completed"
